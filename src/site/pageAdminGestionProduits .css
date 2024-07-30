@@ -1,0 +1,27 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .PageAdminGestionProduits {
+    display: flex;
+    flex-direction: row; /* Ajouté pour s'assurer que les éléments enfants sont alignés horizontalement */
+    height: 100%;
+  }
+  
+  .FormSaveProduit, .AdminGestionProduit {
+    flex: 1; /* Les composants prennent autant d'espace que possible */
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box; /* Ajouté pour inclure la bordure et le padding dans les dimensions totales */
+  }
+  
+  .FormSaveProduit {
+    background-color: #f0f0f0;
+  }
+  
+  .AdminGestionProduit {
+    background-color: #e0e0e0;
+  }
